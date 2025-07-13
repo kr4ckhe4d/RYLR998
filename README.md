@@ -51,7 +51,7 @@ GND           →   GND
    # Enable serial port hardware, disable serial console
    ```
 
-2. Add to `/boot/config.txt`:
+2. Add to `/boot/firmware/config.txt`:
    ```
    enable_uart=1
    ```
