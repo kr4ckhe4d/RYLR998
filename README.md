@@ -58,8 +58,9 @@ GND           →   GND
 
 3. Install required Python package:
    ```bash
-   sudo apt install python3-pip
-   pip3 install pyserial
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install pyserial
    ```
 
 4. Run the receiver:
